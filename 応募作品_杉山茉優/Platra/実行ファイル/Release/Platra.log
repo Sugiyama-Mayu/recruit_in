@@ -1,0 +1,72 @@
+﻿  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\FbxNormalStaticMesh_PS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\FbxNormalStaticMesh_VS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceSkinMesh_DS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceSkinMesh_HS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceSkinMesh_PS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceSkinMesh_VS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceStaticMesh_DS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceStaticMesh_HS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceStaticMesh_PS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceStaticMesh_VS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceWave_DS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceWave_HS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceWave_PS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\DisplaceWave_VS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Effect3D_GS_POINT.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Effect3D_PS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Effect3D_VS_BILL.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Effect3D_VS_BILLMESH.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Effect3D_VS_POINT.cso
+C:\Users\A20021\Desktop\SugiyamaMayu\�\�[�X�R�[�h\Platra\Src\FbxSkinMesh.hlsli(221,19-62): warning X3206: 'Sample': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\FbxSkinMesh_PS.cso
+C:\Users\A20021\Desktop\SugiyamaMayu\�\�[�X�R�[�h\Platra\Src\FbxSkinMesh.hlsli(221,19-62): warning X3206: 'Sample': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\FbxSkinMesh_VS.cso
+C:\Users\A20021\Desktop\SugiyamaMayu\�\�[�X�R�[�h\Platra\Src\FbxStaticMesh.hlsli(141,19-62): warning X3206: 'Sample': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\FbxStaticMesh_PS.cso
+C:\Users\A20021\Desktop\SugiyamaMayu\�\�[�X�R�[�h\Platra\Src\FbxStaticMesh.hlsli(141,19-62): warning X3206: 'Sample': implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\FbxStaticMesh_VS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Simple_PS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Simple_VS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Sprite3D_PS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Sprite3D_VS.cso
+  compilation object save succeeded; see C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Sprite3D_VS_BILL.cso
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  BackFore.cpp
+  BaseProc.cpp
+  BBox.cpp
+  Camera.cpp
+  Collision.cpp
+  DInput.cpp
+  Direct3D.cpp
+  Displace.cpp
+  Effect.cpp
+  Enemy.cpp
+  FbxMesh.cpp
+c:\users\a20021\desktop\sugiyamamayu\ソースコード\platra\src\fbxmesh.cpp(1551): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+c:\users\a20021\desktop\sugiyamamayu\ソースコード\platra\src\fbxmesh.cpp(1559): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+c:\users\a20021\desktop\sugiyamamayu\ソースコード\platra\src\fbxmesh.cpp(1850): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+  GameMain.cpp
+  Main.cpp
+  Map.cpp
+  コンパイル中...
+  MyImgui.cpp
+  MyMath.cpp
+  Playchar.cpp
+  Shader.cpp
+  Sprite3D.cpp
+  Title.cpp
+  Weapon.cpp
+  XAudio.cpp
+  コード生成しています。
+  All 2731 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  Platra.vcxproj -> C:\Users\A20021\Desktop\SugiyamaMayu\ソースコード\Platra\Release\Platra.exe

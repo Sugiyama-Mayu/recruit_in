@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - target
+  - CakeGame
+  - CreamGame
+  - CutGame
+  - EdgeBox
+  - targetpoint
+  - 1
+  - 2
+  - CBowl
+  - CCake
+  - bowl
+  - Done
+  - cracker
+  - CookieStamp
+  - Orange
+  - DoneOrange
+  - FxTemporaire
+  - CutOut
+  - StrawBerry
+  - ChocoBowl
+  - ChocoHarden
+  - DoneCake
+  - DoneHarden
+  - OrangeJelly
+  - JellyCup
+  - OBowl
+  - Cake
+  - DBowl
+  - DoughCookie
+  - EndSweets
+  - OverSweets
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - nontouch
+  - item
+  - itembox
+  - Done
+  - Live
+  - OutOfRange
+  - WithinDough
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

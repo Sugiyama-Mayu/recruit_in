@@ -1,0 +1,149 @@
+「Sweets Manufacturer」説明テキストファイル
+
+
+【確認OS】
+・Widows10 バージョン20H2
+
+【確認グラフィックハードウェア】
+・GEFORCE GTX 16 SERIES
+・NVIDIA GetForce RTX
+
+【制作人数】
+・3人で制作しました
+
+【開発環境】
+・Unity 2021.2.18f1
+・Visual Studio 2017
+・Adobe Photoshop 2022
+・Maya 2020
+・Blender
+
+・担当箇所
+プログラム全般を一人で担当しました
+制作したプログラムや関数はM.Sのコメントがついています
+
+root
+|
+|-Script
+||--collectSelectScene
+| |-Collect.cs
+【特に力を入れている箇所】
+110～128 オブジェクトを大きく表示させ、取得アイテムがない場合はハテナを表示する処理(この行ではケーキオブジェクトの処理)
+458～541 DisPlaySmallCollectItem 小さい枠に取得アイテムを表示させる処理
+| |-CollectButton.cs
+|
+||--miniGames
+| |-cutCake
+|  |-CutManager.cs
+|  |-CutPos1.cs
+|  |-CutPos2.cs
+|  |-CutPos3.cs
+|  |-CutPos4.cs
+|  |-CutPos5.cs
+|  |-CutPos6.cs
+|  |-CutPos7.cs
+|  |-CutPos8.cs
+|  |-MoveKnife.cs
+|
+| |-cutOutCookie
+|  |-CookieManager.cs
+|  |-CutOutColl.cs
+【特に力を入れている箇所】
+48 ListのcolListにこのオブジェクトを保存
+|  |-DoughCutOut.cs
+【特に力を入れている箇所】
+17 ListのcolListにこのオブジェクトを保存
+|  |-MoveCutOut.cs
+【特に力を入れている箇所】
+78～124 生地の範囲外領域、型抜きの穴、生地のスクリプトでcolListに保存されたオブジェクトを見て
+        型抜きが可能ならば行う処理
+|  |-RangeCutOut.cs
+【特に力を入れている箇所】
+18 ListのcolListにこのオブジェクトを保存
+|
+| |-decolate
+|  |-BerryCrear.csのエフェクト、効果音の発生
+|  |-Clicktarget.csのエフェクト、効果音の発生
+|
+| |-hardenChocolate
+|  |-Chocodrop.csのエフェクト、効果音の発生、ゲームクリアフラグ処理
+|  |-ChocoDropJudge.cs
+|  |-DragDrop.csのチョコクラッカーゲーム再スタート時の初期化処理
+|
+| |-ovenGame
+|  |-OvenSceneManager.csのシーンロード、アンロード処理、エフェクト、効果音の発生、ミニゲーム説明テキストの表示
+|  |-StopRedButton.csのゲージの管理(1度のみ止められ、スペースキー以外で操作不可)、エフェクト、効果音の発生
+|
+| |-pourJelly
+|  |-JellyCapColl.cs
+|  |-JellyPourManager.cs
+|  |-MoveDipositor.cs  
+|
+| |-putJelly
+|  |-JellyGameManager.cs
+|  |-JellyOrangeCapColl.cs
+|  |-MoveOrange.cs
+【特に力を入れている箇所】
+35～40 ミニゲーム再スタート時にまだ目的地に配置していないオレンジを初期位置に戻す処理
+42～97 クリックした時、マウスからのレイに配置済みでないオレンジが当たったら持ち上げ、マウスの動きと一緒に移動させる処理
+       持ち上げている時はボックスコライダーを非アクティブにし、
+       マウスボタンを離した時にボックスコライダーをアクティブにする処理(目的地に配置できたどうか判定のため)
+|
+| |-whipCream
+|  |-CollManager.cs
+【特に力を入れている箇所】
+48～53 各当たり判定のゲッターがすべてtrueならば行う1回転処理
+|  |-MoveWhisk.cs
+|  |-RotatePos1.cs
+【特に力を入れている箇所】
+36～43 泡だて器との当たり判定のゲッターとセッター
+|  |-RotatePos2.cs
+|  |-RotatePos3.cs
+|  |-RotatePos4.cs
+||-resultScene
+| |-GameResult.cs
+【特に力を入れている箇所】
+115～122 ファイルに取得アイテムデータを書き込む処理
+| |-ResultButton.cs
+| |-ResultManager.cs
+【特に力を入れている箇所】
+166～183  BGMを変更し、ゲームの成功度と残り時間によってスコアを出す処理
+          プレイキャラにアニメーションをさせ、一定時間したらプレイキャラのアニメーションを止めて、リザルトシーンを呼び出す処理
+          (この行ではステージ1のゲームクリア処理)
+|
+||-stageSelect_TitleScene
+| |-StageSelectTitleButton.cs
+|
+||-AudioScript.cs
+||-belt.csのベルトコンベアで物を流す時に加える力の追加、削除処理
+||-BordColl.cs
+||-ClickObject.cs
+【特に力を入れている箇所】
+26～33 クリックしたオブジェクトがゲーム処理済みならば追いかけるのをやめる処理
+36～60 追いかけている(クリックした)オブジェクトがなければ、歩くアニメーションを止め、
+       新しくクリックした場合はそこからレイを飛ばし、当たったオブジェクトがゲーム処理済みでない
+       材料オブジェクトの場合、追いかける処理をする
+66～75 プレイキャラに歩くアニメーションをさせ、材料オブジェクトの方向を向かせて進ませる処理
+||-DropObj.cs
+【特に力を入れている箇所】
+153～217 OccurrenceEdgeMinigame  端でのミニゲーム発生処理
+                                 ミニゲームによってシーンを呼びだすかどうか分けている
+255～300 CollSweetsLaneNumberOf2 端にオブジェクトが流れてきた時の処理
+                                 材料の制作段階によって次のオブジェクトに変えたり、同じオブジェクトをもう一度流したり、
+                                 ゲームを発生させたりと処理を分けている。
+||-EffectScript.cs                  
+||-GameManager.cs
+【特に力を入れている箇所】
+21～29 モードに合わせてゲーム内の時間経過の速さを設定
+34～46 通常モードでステージ1の場合のチュートリアル処理
+
+||-HitObjJudgeFalse.cs
+||-MinigameIn.cs
+【特に力を入れている箇所】
+260～279 ChangeCamera カメラ位置の設定処理
+125～137 ミニゲームの時間をゲームによって変更している
+||-OverButton.cs
+||-TimeCount.cs
+【特に力を入れている箇所】
+73 リザルトシーンで参照する残り時間はゲームクリア時のみ更新し
+   進まないようにする処理
